@@ -25,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth = 0;
             Destroy(gameObject);
+            UIManager.Instance.GameOver();
         }
     }
 }
